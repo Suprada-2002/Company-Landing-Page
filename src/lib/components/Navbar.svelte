@@ -27,8 +27,8 @@
         </ul>
 
         <div class="hidden lg:flex justify-center space-x-12 items-center">
-            <a href="www.google.com" class="py-2 px-3 border rounded-md">Sign In</a>
-             <a href="www.google.com" class="bg-gradient-to-tr from-orange-500 to-orange-800 py-2 px-3 rounded-md"> Create an account</a>
+            <a href="#" class="py-2 px-3 border rounded-md">Sign In</a>
+             <a href="#" class="bg-gradient-to-tr from-orange-500 to-orange-800 py-2 px-3 rounded-md"> Create an account</a>
         </div>
       </div>
 
@@ -51,8 +51,8 @@
                 {/each}
           </ul>
           <div class="flex space-x-6">
-                <a href="www.google.com" class="py-2 px-3 border rounded-md">Sign In</a>
-             <a href="www.google.com" class="bg-gradient-to-tr from-orange-500 to-orange-800 py-2 px-3 rounded-md"> Create an account</a>
+                <a href="#" class="py-2 px-3 border rounded-md">Sign In</a>
+             <a href="#" class="bg-gradient-to-tr from-orange-500 to-orange-800 py-2 px-3 rounded-md"> Create an account</a>
           </div>
         </div>
    {/if}
