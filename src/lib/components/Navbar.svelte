@@ -16,7 +16,7 @@
         <div class="flex justify-between items-center">
             <div class="hidden lg:flex items-center flex-shrink-0">
                 <img class="h-10 w-10 mr-2" alt="navbar-logo" src={logo} />
-                <span class="text-xl tracking-tight">VirtualR</span>
+                <span class="text-xl tracking-tight">CompanyR</span>
             </div>
       
 
