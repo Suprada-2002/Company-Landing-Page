@@ -35,9 +35,9 @@
         <div class="lg:hidden md:flex flex-col justify-end">
             <button onclick={toggleNavbar}>
                 {#if mobileDrawerOpen}
-                 <Menu />
-                {:else}
                  <X />
+                {:else}
+                 <Menu />
                 {/if}
             </button>
         </div>
