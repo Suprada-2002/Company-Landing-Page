@@ -1,3 +1,11 @@
-<h1>Welcome to your library project</h1>
-<p>Create your package using @sveltejs/package and preview/showcase your work with SvelteKit</p>
-<p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>
+<script>
+    import Hero from "$lib/components/Hero.svelte";
+    import Pricing from "$lib/components/Pricing.svelte";
+    import Testimonials from "$lib/components/Testimonials.svelte";
+
+</script>
+<div class="max-w-7xl mx-auto pt-20 px-6">
+    <Hero />
+    <Pricing />
+    <Testimonials />
+</div>
