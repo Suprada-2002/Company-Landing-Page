@@ -3,7 +3,7 @@
     import { pricingOptions } from '$lib/data/data.js';
 </script>
 
-<div class="mt-20">
+<div id="pricing" class="mt-20">
     <h2 class="text-3xl sm:text-5xl lg:text-6xl text-center my-8 tracking-wide">Pricing</h2>
 
     <div class="flex flex-wrap">

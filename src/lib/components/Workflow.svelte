@@ -3,7 +3,8 @@
     import {CheckCircle2 } from "@lucide/svelte"
      import codeImg from '$lib/assets/code.jpg'
 </script>
-<div class="mt-20">
+
+<div id="workflow" class="mt-20">
     <h2 class="text-3xl sm:text-5xl lg:text-6xl text-center mt-6 tracking-wide">Acclerate your {" "} 
         <span class="bg-gradient-to-r from-orange-500 to-orange-800 text-transparent bg-clip-text">coading workflow.</span></h2>
 

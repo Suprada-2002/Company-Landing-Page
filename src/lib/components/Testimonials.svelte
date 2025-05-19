@@ -2,7 +2,7 @@
     import { testimonials } from '$lib/data/data.js'
 </script>
 
-<div class="mt-20 tracking-wide">
+<div id="testimonials" class="mt-20 tracking-wide">
     <h2 class="text-3xl sm:text-5xl lg:text-6xl text-center my-10 lg:my-20">What People are saying</h2>
 
     <div class="flex flex-wrap justify-center">

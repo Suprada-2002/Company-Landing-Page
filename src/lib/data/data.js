@@ -3,10 +3,10 @@ import user1 from "$lib/assets/user1.jpg";
 import {BotMessageSquare, Fingerprint, PlugZap, BatteryCharging, ShieldHalf, GlobeLock} from '@lucide/svelte';
 
 export const navItems = [
-  { label: "Features", href: "#" },
-  { label: "Workflow", href: "#" },
-  { label: "Pricing", href: "#" },
-  { label: "Testimonials", href: "#" },
+  { label: "Features", href: "#features" },
+  { label: "Workflow", href: "#workflow" },
+  { label: "Pricing", href: "#pricing" },
+  { label: "Testimonials", href: "#testimonials" },
 ];
 
 export const testimonials = [

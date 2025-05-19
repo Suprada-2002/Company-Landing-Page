@@ -2,7 +2,7 @@
     import { features } from "$lib/data/data.js";
 </script>
 
-<div class="relative mt-20 border-b border-neutral-800 min-h-[800px]">
+<div id="feature" class="relative mt-20 border-b border-neutral-800 min-h-[800px]">
     <div class="text-center">
         <span class="bg-neutral-900 text-orange-500 rounded-full h-6 text-sm font-medium px-2 py-1 uppercase">Features</span>
 

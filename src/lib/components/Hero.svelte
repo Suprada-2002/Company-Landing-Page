@@ -1,4 +1,4 @@
-<div class="flex flex-col items-center mt-6 lg:mt-20">
+<div id="hero" class="flex flex-col items-center mt-6 lg:mt-20">
     <h1 class="text-4xl sm:text-6xl lg:text-7xl text-center tracking-wide">VirtualR build tools
     <span class="bg-gradient-to-r from-orange-500 to-red-800 text-transparent bg-clip-text">
         for developers

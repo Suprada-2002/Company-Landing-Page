@@ -2,7 +2,7 @@
     import {communityLinks, platformLinks, resourcesLinks} from '$lib/data/data.js';
 </script>
 
-<footer class="mt-20 border-t py-10 border-neutral-700">
+<footer id="footer" class="mt-20 border-t py-10 border-neutral-700">
     <div class="grid grid-cols-2 lg:grid-cols-3 gap-4">
 
         <div>
