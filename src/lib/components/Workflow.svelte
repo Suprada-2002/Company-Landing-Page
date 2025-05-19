@@ -1,7 +1,7 @@
 <script>
     import { checklistItems } from "$lib/data/data.js";
     import {CheckCircle2 } from "@lucide/svelte"
-
+     import codeImg from '$lib/assets/code.jpg'
 </script>
 <div class="mt-20">
     <h2 class="text-3xl sm:text-5xl lg:text-6xl text-center mt-6 tracking-wide">Acclerate your {" "} 
@@ -9,10 +9,10 @@
 
     <div class="flex flex-wrap justify-center">
         <div class="pt-12 w-full lg:w-1/2">
-            <img alt="coading" src="" /> 
+            <img alt="coading" src={codeImg} /> 
         </div>
 
-        <div>
+        <div class="pt-12 w-full lg:w-1/2">
             {#each checklistItems as items}
             <div class="flex mb-12">
                 <div class="text-green-400 mx-6 bg-neutral-900 h-10 w-10 p-2 justify-center items-center rounded-full">
