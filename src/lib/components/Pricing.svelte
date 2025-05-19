@@ -1,4 +1,5 @@
 <script>
+     import {CheckCircle2 } from "@lucide/svelte"
     import { pricingOptions } from '$lib/data/data.js';
 </script>
 
@@ -26,7 +27,7 @@
                     <ul>
                         {#each priceOptn.features as feature}
                             <li class="mt-8 flex items-center">
-                            <span>⃝✔</span>
+                            <CheckCircle2 />
                             <span class="ml-2">{feature}</span>
                             </li>
                         {/each}
