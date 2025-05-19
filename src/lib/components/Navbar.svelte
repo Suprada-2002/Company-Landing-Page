@@ -1,6 +1,7 @@
 <script>
     import logo from '$lib/assets/logo.png';
     import {navItems} from '$lib/data/data.js';
+    import {Menu, X} from '@lucide/svelte';
 
     let mobileDrawerOpen = false;
 
@@ -34,9 +35,9 @@
         <div class="lg:hidden md:flex flex-col justify-end">
             <button onclick={toggleNavbar}>
                 {#if mobileDrawerOpen}
-                 <p>-</p>
+                 <Menu />
                 {:else}
-                 <p>X</p>
+                 <X />
                 {/if}
             </button>
         </div>
