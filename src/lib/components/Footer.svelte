@@ -3,7 +3,7 @@
 </script>
 
 <footer id="footer" class="mt-20 border-t py-10 border-neutral-700">
-    <div class="grid grid-cols-2 lg:grid-cols-3 gap-4">
+   <div class="flex sm:col-span-1 md:row-span-2 lg:col-span-3 justify-around">
 
         <div>
             <h3 class="text-md font-semibold mb-4">Resources</h3>
